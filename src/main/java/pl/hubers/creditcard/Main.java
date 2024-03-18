@@ -2,7 +2,7 @@ package pl.hubers.creditcard;
 
 public class Main {
     public static void main(String[] args) {
-        String name = "Hubert";
+        String name = "Mateusz";
         Double digit = 2.2;
 
         greet(name);
