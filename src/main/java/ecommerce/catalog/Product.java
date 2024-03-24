@@ -7,20 +7,23 @@ public class Product {
     private final String id;
     private final String name;
     private final String description;
+    private BigDecimal price;
 
     public Product(UUID id, String name, String description) {
-
         this.id = id.toString();
         this.name = name;
         this.description = description;
     }
 
     public String getId() {
-        return null;
+        return id;
     }
 
     public BigDecimal getPrice() {
-        return BigDecimal.valueOf(0);
+        return this.price;
+    }
 
+    public void changePrice(BigDecimal price) {
+        this.price = price;
     }
 }
