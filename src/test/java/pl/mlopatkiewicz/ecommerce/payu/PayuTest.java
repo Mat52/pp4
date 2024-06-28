@@ -26,7 +26,7 @@ public class PayuTest {
     private OrderCreateRequest createExampleOrderCreateRequest() {
         var createRequest = new OrderCreateRequest();
         createRequest
-                .setNotifyUrl("https://my.example.shop.ekulka.pl/api/order")
+                .setNotifyUrl("https://my.example.shop.mlopatkiewicz.pl/api/order")
                 .setCustomerIp("127.0.0.1")
                 .setMerchantPosId("300746")
                 .setDescription("My ebook")
