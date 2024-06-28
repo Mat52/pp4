@@ -4,7 +4,7 @@ package pl.mlopatkiewicz.creditcard;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        String name = "Emil";
+        String name = "Mateusz";
         System.out.println(String.format("Hello %s", name));
         System.out.println(0042);
     }
